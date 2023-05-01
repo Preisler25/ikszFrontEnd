@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 html {
     text-align:center;
     /* overflow-x:none; #d5f5ef*/
@@ -30,7 +34,7 @@ html {
 body {
     padding:0;
     margin:0;
-    width:100%;
+    width:100vw;
     min-height:100%;
     font-family: OpenSans;
 }
@@ -46,17 +50,105 @@ header{
     background:linear-gradient(90deg, #def6e900 0%,#72c3b6 100% );
 }
 header img{
-    height:60px;
-    width:60px;
+    /*height:60px;
+    width:60px;*/
     cursor: pointer;
-    /* height:10vh; */
+    height:10vh;
     /* margin-left:7px;
     /* align-self:center;
     display:flex;
     border-radius: 50%;
     box-shadow: 0 0 15px 1px #000000bc; */
 }
-
+#iksz{
+    font-family: OpenSansBold;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+    cursor: default;
+    /* align-self:center; */
+    /* margin-left:10px; */
+    /* margin-top:10px; */
+    /* margin-bottom:10px; */
+    /* display:flex; */
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    width: 70vw;
+    height: 100%;
+    background: #ffffff46;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px #000000bc;
+    padding: 20px;
+    margin: 50px;
+    cursor: default;
+    transition: all 0.3s ease-in-out;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+    cursor: default;
+}
+.desc{
+    cursor: default;
+}
+.botton_cont{
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.email_field{
+    border: none;
+    background: #ffffff35;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #000000bc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+    background: #ffffff46;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: default;
+    transition: all 0.3s ease-in-out;
+}
+.join_btn{
+    border: none;
+    background: #ffffff35;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px #000000bc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 10px;
+}
 footer{
     display: flex;
     justify-content: flex-end;
