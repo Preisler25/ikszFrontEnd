@@ -4,7 +4,7 @@ function mainpage(){
 
 async function test() {
     try {
-      const response = await fetch('http://localhost:80/test.php');
+      const response = await fetch('https://helyettesites.petrik.hu/api/index.php?status=ikszOpp');
       if (response) {
         console.log('A válasz érkezett.', response);
         const data = await response.json();
