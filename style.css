@@ -81,6 +81,9 @@ header img{
     align-items: center;
 }
 .card{
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-color: #44c7b4;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -118,7 +121,7 @@ header img{
     border: none;
     background: #ffffff35;
     border-radius: 10px;
-    box-shadow: 0 0 10px 1px #000000bc;
+    box-shadow: 0 0 5px 1px #000000bc;
     padding: 10px;
     margin: 10px;
     cursor: pointer;
@@ -136,16 +139,16 @@ header img{
 }
 .join_btn{
     border: none;
-    background: #ffffff35;
+    background: #49dcc6;
     border-radius: 10px;
-    box-shadow: 0 0 15px 1px #000000bc;
+    box-shadow: 0 0 5px 1px #000000bc;
     padding: 10px;
     margin: 10px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     font-size: 1rem;
     font-weight: 700;
-    color: #000000;
+    color: #3a3a3a;
     text-align: center;
     margin: 10px;
 }
